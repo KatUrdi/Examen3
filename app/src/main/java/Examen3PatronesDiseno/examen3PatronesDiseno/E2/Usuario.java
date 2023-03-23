@@ -23,7 +23,10 @@ public class Usuario {
         this.password = password;
     }
 
-    publ
-    
+    public Usuario(int id, String nombre, String password) {
+        this.id = id;
+        this.nombre = nombre;
+        this.password = password;
+    }
     
 }
